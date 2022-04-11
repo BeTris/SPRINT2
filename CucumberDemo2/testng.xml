@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CucumberDemo2 Suit 1" parallel="tests" thread-count="2">
+<listeners>
+	<listener class-name="testOptions.TestngListeners"/>
+</listeners>
+<test name="Payback_Products">
+<classes>
+	<class name="testOptions.TestRunner"/>
+</classes>
+</test>
+  <test name="Payback_Coupons">
+        <classes>
+            <class name="testOptions.TestRunner2"/>
+        </classes>
+    </test>
+
+</suite>
+
+
